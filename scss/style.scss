@@ -1,0 +1,65 @@
+@import "./assets/variables";
+@import "./assets/reset";
+@import "./assets/utils";
+
+.wrapper {
+    background-color: rgb(205, 237, 255);
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+}
+
+.details {
+    margin: 3rem 0;
+
+    &:first-of-type {
+        margin: 1rem 0 3rem;
+    }
+
+    &:last-of-type {
+        margin: 3rem 0 1rem;
+    }
+
+    &-heading {
+        text-transform: capitalize;
+    }
+
+    &-list {
+        margin-top: 1rem;
+        padding-left: .8rem;
+        align-items: flex-start;
+        gap: 1rem;
+        max-width: 600px;
+        
+        &.skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            justify-content: flex-start;
+        }
+
+        li {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            font-size: 20px;
+            color: rgb(54, 63, 68);
+            height: 24px;
+
+            span {
+                text-transform: capitalize;
+            }
+        }
+    }
+
+    i {
+        font-size: $fs-XL;
+        margin-right: .5rem;
+        width: 24px;
+        height: 24px;
+    }
+
+    p {
+        margin: 1rem 0 0 1rem;
+        font-size: 18px;
+    }
+}

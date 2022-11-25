@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $ff-regular;
+  background-color: rgb(112, 203, 255);
+
+  &:not(i) {
+        font-family: $ff-regular;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+}
+
+img {
+    object-fit: cover;
+}
