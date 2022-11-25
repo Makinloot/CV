@@ -18,3 +18,38 @@
     @extend %flex;
     flex-direction: column;
 }
+
+// icon classes
+.gmail {
+    color: rgb(178, 49, 33);
+}
+.github {
+    color: rgb(33, 31, 31);
+}
+.linkedin {
+    color: rgb(0, 97, 146);
+}
+.facebook {
+    color: rgb(0, 120, 255);
+}
+.html {
+    color: rgb(228, 77, 38);
+}
+.css {
+    color: rgb(41, 101, 241);
+}
+.sass {
+    color: rgb(205, 103, 153);
+}
+.js {
+    color: rgb(240, 219, 79);
+}
+.node {
+    color: rgb(104, 160, 99);
+}
+.git {
+    color: rgb(241, 80, 47);
+}
+.pug {
+    color: rgb(166, 114, 67);
+}
